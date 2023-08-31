@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LP3-CLASES", "LP3-CLASES\LP3-CLASES.csproj", "{54E67D24-E7B4-46D9-962F-59B7D74FC32D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54E67D24-E7B4-46D9-962F-59B7D74FC32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E67D24-E7B4-46D9-962F-59B7D74FC32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E67D24-E7B4-46D9-962F-59B7D74FC32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E67D24-E7B4-46D9-962F-59B7D74FC32D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {993FF6FE-3DB4-42EA-9C4D-C639A1F664D5}
+	EndGlobalSection
+EndGlobal
