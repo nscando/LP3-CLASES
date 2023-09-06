@@ -70,6 +70,10 @@
     <Content Include="Clase1\Ejercicio1.aspx" />
     <Content Include="Clase1\Ejercicio2.aspx" />
     <Content Include="Clase1\Ejercicio5.aspx" />
+    <Content Include="Clase2\CargarDatosCv.aspx" />
+    <Content Include="Clase2\ContadorVisitas.aspx" />
+    <Content Include="Clase2\DatosCargados.aspx" />
+    <Content Include="Clase2\Ejercicio1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +97,34 @@
     </Compile>
     <Compile Include="Clase1\Ejercicio5.aspx.designer.cs">
       <DependentUpon>Ejercicio5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase2\CargarDatosCv.aspx.cs">
+      <DependentUpon>CargarDatosCv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase2\CargarDatosCv.aspx.designer.cs">
+      <DependentUpon>CargarDatosCv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase2\ContadorVisitas.aspx.cs">
+      <DependentUpon>ContadorVisitas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase2\ContadorVisitas.aspx.designer.cs">
+      <DependentUpon>ContadorVisitas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase2\DatosCargados.aspx.cs">
+      <DependentUpon>DatosCargados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase2\DatosCargados.aspx.designer.cs">
+      <DependentUpon>DatosCargados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase2\Ejercicio1.aspx.cs">
+      <DependentUpon>Ejercicio1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase2\Ejercicio1.aspx.designer.cs">
+      <DependentUpon>Ejercicio1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
