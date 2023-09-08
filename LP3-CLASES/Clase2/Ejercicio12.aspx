@@ -78,8 +78,8 @@
             </asp:DropDownList>
 
             <asp:Button ID="Button2" runat="server" Text="Cargar" CssClass="button" OnClick="Button2_Click" />
-            <asp:Button ID="Button1" runat="server" Text="Consultar" CssClass="button" />
-            <asp:Label ID="LabelResultado" class="label" runat="server" Text="Label"></asp:Label>
+            <asp:Button ID="Button1" runat="server" Text="Consultar" CssClass="button" OnClick="Button1_Click" />
+            <asp:Label ID="LabelResultado" class="label" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>

@@ -34,12 +34,43 @@ namespace LP3_CLASES.Clase2
             StreamWriter streamWriter = new StreamWriter($"{Server.MapPath(".")}/archivo.txt", true);
             streamWriter.WriteLine(TextBox1.Text);
             streamWriter.WriteLine(TextBox2.Text);
-            streamWriter.WriteLine("Género: " + generoSeleccionado); // Guardar el género seleccionado
+            streamWriter.WriteLine("Género: " + generoSeleccionado); 
             streamWriter.Close();
 
             LabelResultado.Text = $"Libro cargado correctamente, ruta de archivo.txt {Server.MapPath(".")}.";
         
                 
+            }
+
+        protected void Button1_Click ( object sender, EventArgs e )
+            {
+            if ( File.Exists(Server.MapPath(".") + "/archivo.txt") )
+                {
+                StreamReader streamReader = new StreamReader(Server.MapPath(".") + "/archivo.txt");
+                string[] lines = (streamReader.ReadToEnd()).Split('\n');
+                streamReader.Close();
+                LabelResultado.Text = "<hr>";
+                int lineCount = 0;
+
+                foreach ( string line in lines )
+                    {
+                    lineCount++;
+                    if ( lineCount % 3 == 0 )
+                        {
+                        LabelResultado.Text += $"{line} <br/>";
+                        LabelResultado.Text += "<hr>";
+                        }
+                    else
+                        {
+                        LabelResultado.Text += $"{line} <br/>";
+                        }
+                    }
+
+                }
+            else
+                {
+                LabelResultado.Text = "No existen datos";
+                }
             }
         }
     }
