@@ -47,10 +47,11 @@ namespace LP3_CLASES.Clase3
             conexion.Open();
 
             SqlCommand querySql = new SqlCommand("UPDATE alumnos SET "
-                + "Nombre='" + this.txbNombre.Text + "', "
-                + "Apellido='" + this.txbApellido.Text + "', "
-                + "Provincia='" + this.txbProvincia.Text + "'"
-                , conexion);
+                + "Nombre = '" + this.txbNombre.Text + "', "
+                + "Apellido = '" + this.txbApellido.Text + "', "
+                + "Provincia = '" + this.txbProvincia.Text + "' " //cambio realizado en esta linea
+                + "WHERE Dni = '" + this.txbDni.Text + "'",
+                conexion);
 
             int cantidad = querySql.ExecuteNonQuery();
 
