@@ -63,7 +63,7 @@ namespace LP3_CLASES.Clase3
             }
             else
             {
-                this.mensajeAlerta.Text = "El usuario que intenta modificar no ha sido encontrado.";
+                this.mensajeAlerta.Text = "error en el else de evalua la cantidad.";
 
                 conexion.Close();
 
