@@ -18,7 +18,7 @@ namespace LP3_CLASES.Clase3
 
         protected void btnConsultar_Click(object sender, EventArgs e)
         {
-            String bdAlumnos = System.Configuration.ConfigurationManager.ConnectionStrings["alumnos"].ConnectionString;
+            string bdAlumnos = System.Configuration.ConfigurationManager.ConnectionStrings["alumnos"].ConnectionString;
 
             SqlConnection conexion = new SqlConnection(bdAlumnos);
 

@@ -75,6 +75,11 @@
     <Content Include="Clase2\DatosCargados.aspx" />
     <Content Include="Clase2\Ejercicio1.aspx" />
     <Content Include="Clase2\Ejercicio12.aspx" />
+    <Content Include="Clase3\Alta.aspx" />
+    <Content Include="Clase3\Baja.aspx" />
+    <Content Include="Clase3\Consulta.aspx" />
+    <Content Include="Clase3\Ejercicio1.aspx" />
+    <Content Include="Clase3\Modificacion.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +138,41 @@
     </Compile>
     <Compile Include="Clase2\Ejercicio12.aspx.designer.cs">
       <DependentUpon>Ejercicio12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase3\Alta.aspx.cs">
+      <DependentUpon>Alta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase3\Alta.aspx.designer.cs">
+      <DependentUpon>Alta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase3\Baja.aspx.cs">
+      <DependentUpon>Baja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase3\Baja.aspx.designer.cs">
+      <DependentUpon>Baja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase3\Consulta.aspx.cs">
+      <DependentUpon>Consulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase3\Consulta.aspx.designer.cs">
+      <DependentUpon>Consulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase3\Ejercicio1.aspx.cs">
+      <DependentUpon>Ejercicio1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase3\Ejercicio1.aspx.designer.cs">
+      <DependentUpon>Ejercicio1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clase3\Modificacion.aspx.cs">
+      <DependentUpon>Modificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clase3\Modificacion.aspx.designer.cs">
+      <DependentUpon>Modificacion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
